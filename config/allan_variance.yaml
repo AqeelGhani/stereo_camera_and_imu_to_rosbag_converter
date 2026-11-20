@@ -1,0 +1,4 @@
+imu_topic: "/imu0"        # ROS 2 IMU topic name inside the recorded bag
+imu_rate: 200             # Hardware IMU sample rate in Hz (e.g., 200 for GoPro/DJI)
+measure_rate: 200         # Downsampled rate for Allan computation (usually matches imu_rate)
+sequence_duration: 38741  # Total stationary recording length in seconds (set <= your bag duration)

@@ -1,0 +1,33 @@
+# Video & binary telemetry files
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.AVI
+*.csv
+*.CSV
+
+# ROS 1 & ROS 2 bag artifacts
+*.bag
+*.bag.active
+*.mcap
+*.db3
+*.db3-wal
+*.db3-shm
+*_ros2/
+
+# Kalibr heavy reports & exported Docker tarballs
+*-report-*.pdf
+*.tar
+*.tar.gz
+
+# Python & OS clutter
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Others
+*.pdf
+dataset-dir/
+__pycache__/

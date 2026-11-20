@@ -1,0 +1,5 @@
+target_type: 'aprilgrid'
+tagCols: 8               # Number of AprilTags horizontally
+tagRows: 6               # Number of AprilTags vertically
+tagSize: 0.100           # Edge-to-edge width of ONE black tag square in meters
+tagSpacing: 0.3          # Ratio of gap between tags to tagSize (typically 0.3)
