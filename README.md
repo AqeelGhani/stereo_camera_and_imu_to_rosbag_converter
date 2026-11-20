@@ -78,8 +78,8 @@ mpv --osd-fractions=yes data/cam1.mp4
 
 * Press **`Space`** to pause near the sync event, and use **`,` (comma)** and **`.` (period)** to step backward/forward single frames.
 * Compute the offset:
-  $$\text{offset\_sec} = t_{\text{cam0}} - t_{\text{cam1}}$$
-  *(For example, if the event occurs at `12.450s` in `cam0` and `11.449s` in `cam1`, pass `--offset_sec 1.001`.)*
+  $$\mathrm{offset\_sec} = t_{\mathrm{cam0}} - t_{\mathrm{cam1}}$$
+  *(For example, if the event occurs at `12.450s` in `cam0` and `11.449s` in `cam1`, pass `--offset_sec 1.001`.)*[cite: 15]
 
 ---
 
