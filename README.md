@@ -37,7 +37,16 @@ newgrp docker
 
 *(Optional)* For IMU Allan Variance characterization on **ROS 2 Jazzy**, install [`allan_variance_ros2`](https://github.com/Autoliv-Research/allan_variance_ros2) in your ROS 2 workspace.
 
-### 2. Build the Kalibr Base Image
+### 2. Cloning the GitHub Repo
+
+Cloning the stereo_camera_and_imu_to_rosbag_converter GitHub Repo:
+
+```bash
+git clone https://github.com/AqeelGhani/stereo_camera_and_imu_to_rosbag_converter.git
+cd ./stereo_camera_and_imu_to_rosbag_converter
+```
+
+### 3. Build the Kalibr Base Image
 
 ETHZ-ASL does not publish pre-built Kalibr images on Docker Hub. Run the helper script to compile the `kalibr` base image locally (one-time setup, ~15–30 minutes):
 
@@ -46,7 +55,7 @@ chmod +x scripts/build_kalibr_base.sh
 ./scripts/build_kalibr_base.sh
 ```
 
-### 3. Build the Converter Image
+### 4. Build the Converter Image
 
 Build the unified pipeline image on top of `kalibr`:
 
